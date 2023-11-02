@@ -1,0 +1,151 @@
+/* Fondo y posicionamiento */
+head, body {
+  background-image: url(../assets/fondo2.jpg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  padding-top: 7%;
+  margin: 0;
+}
+
+/* Estilo de la barra de navegación */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a,
+.boton {
+  display: inline-block;
+}
+
+.dropdown a {
+  color: #fff;
+  margin-left: 15px;
+}
+
+.dropdown a:hover {
+  color: #f30c0c;
+}
+
+.menu:hover .dropdown-content {
+  display: block;
+  
+}
+
+/* Estilo de la imagen de logo original */
+.logo {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+}
+
+.logo:hover {
+  height: 41px;
+  width: 41px;
+}
+
+/* Estilo del contenido */
+.container {
+  background-color: transparent;
+  padding: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+
+
+/* Estilo de los enlaces en las noticias */
+.noticia-link,
+p a {
+  text-decoration: none;
+  color: #333; /* Cambia el color a tu preferencia */
+}
+
+.noticia-link:hover,
+p a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo de las secciones de noticias */
+section {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+
+/* Estilo de los títulos de noticias */
+h2, h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+
+
+/* Estilo de las imágenes y videos en las noticias */
+.noticia img,
+.noticia video,
+img {
+  width: 100%;
+  height: auto;
+  max-height: auto; /* Tamaño más pequeño para las imágenes y videos */
+}
+
+/* Estilo de las fechas de las noticias */
+.fecha {
+  color: #777;
+}
+
+/* Estilo de h1 (Título de Noticias) */
+.titulo-noticias {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Estilo de los botones */
+.boton {
+  background-color: #0645ad;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.boton:hover {
+  background-color: #053a8c;
+}
+
+h1 {
+  font-size: 36px;
+  background: linear-gradient(to right, #1606ff, #03084e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+

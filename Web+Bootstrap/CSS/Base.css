@@ -1,0 +1,195 @@
+/* Fondo y posicionamiento */
+head, body {
+    background-image: url(../assets/fondo2.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    padding-top: 7%;
+    margin: 0;
+}
+
+.imagen-marco {
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  }
+  
+  .centrado {
+    display: block;
+    margin: auto;
+  }
+  
+
+/* Estilo de la barra de navegación */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a,
+.boton {
+    display: inline-block;
+}
+
+.dropdown a {
+    color: #fff;
+    margin-left: 15px;
+}
+
+.dropdown a:hover {
+    color: #f30c0c;
+}
+
+.menu:hover .dropdown-content {
+    display: block;
+}
+
+/* Estilo de la imagen de logo original */
+.logo {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+
+.logo:hover {
+    height: 41px;
+    width: 41px;
+}
+
+/* Estilo del contenido */
+.container {
+    background-color: transparent;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+
+.titulo1 p {
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo de los enlaces en el contenido */
+p a {
+    color: #0645ad;
+    text-decoration: underline;
+}
+
+/* Estilo de los botones */
+.boton {
+    background-color: #0645ad;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.boton:hover {
+    background-color: #053a8c;
+}
+
+/* Estilo de las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo de h1 */
+h1 {
+    font-size: 36px;
+    background: linear-gradient(to right, #1606ff, #03084e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+
+/* Estilo del formulario de registro */
+.formulario {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #27ae60;
+}
+
+/* Estilo de las imágenes dentro de las noticias */
+.texto img {
+    max-width: 70%;
+    height: auto;
+    transition: max-width 1s, height 1s;
+}
+
+.texto img:hover {
+    max-width: 71%;
+    height: auto;
+}
+

@@ -1,0 +1,101 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+  }
+  
+  .grid-item {
+    padding: 50px;
+    text-align: center;
+  }
+.item-1 { color: green; }
+.item-2 { color: purple; }
+.item-3 { color: pink; }
+.item-4 { color: yellow; }
+
+.move-right {
+    margin-left: 1cm;
+  }
+
+th {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+  }
+
+  td {
+    text-align: center; 
+    vertical-align: bottom; 
+    height: 40px;
+  }
+  
+ 
+  table {
+    width: 1
+    0%;
+    border-collapse: collapse;
+  }
+
+  thead {
+    font-weight: bold;
+  }
+
+
+
+.EventoPPV {
+    position: relative;
+}
+
+.EventoPPV::before {
+    content: "";
+    display: block;
+    width: 40px; 
+    height: 40px; 
+    background-color: green; 
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 1px;
+    z-index: -1; 
+}
+
+.grid-container1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Espacio entre los meses */
+}
+  .month-container {
+    border: 1px solid #ccc;
+    padding: 0px;
+    text-align: center;
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    width: 350px; 
+    height: 325px; 
+}
+
+.EventoPPV:hover::before {
+  content: attr(data-evento);
+  position: absolute;
+  top: 50%; /* Posición vertical en el centro */
+  left: 50%; /* Posición horizontal en el centro */
+  transform: translate(-50%, -50%); /* Centrar tanto horizontal como verticalmente */
+  width: 150px; /* Ancho fijo */
+  height: 40px; /* Altura fija */
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  z-index: 1; /* Asegura que el mensaje esté en la parte superior */
+  text-align: center; /* Centrar el texto horizontalmente */
+  line-height: 1.2; /* Ajusta el line-height para que el texto se vea completo */
+}
+
+
+
+
+
+
